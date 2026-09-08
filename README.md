@@ -38,15 +38,14 @@
 **C-DAC Mumbai (Juhu) — HPC ACC Course with Work-Based Learning**<br>
 *Jul 2026 – Present*
 
-- Advanced Computing Career programme with four core modules: Linux & Operating Systems, Computer Networks & Interconnects, Python & C++ Programming, and C & Data Structures.
-- Building applied knowledge of Python-based statistical data handling and analysis.
-- Completing a work-based learning component with a live project phase plus aptitude and communication-skills sessions.
+<p align="center">
+  <strong>Kalyan, Maharashtra</strong> · <a href="tel:+918928575445">+91-8928575445</a>
+</p>
 
 **Pythonic Labs — Python Developer Intern**<br>
 *Mar 2025 – Apr 2025 · Remote*
 
-- Built 3–5 Python/Tkinter GUI desktop applications, reducing manual data-entry effort by **40%** through automation and modular architecture.
-- Cleaned and analyzed operational datasets with Pandas, tracked KPIs, and built **5 interactive dashboards** integrating **4 third-party REST APIs**, cutting reporting turnaround by **60%**.
+<!-- FOOTER — Animated scanline + terminal aesthetic                    -->
 
 **B.E. Artificial Intelligence & Data Science**<br>
 University of Mumbai, Kharghar · **7.75 / 10 CGPA**<br>
