@@ -134,7 +134,7 @@
 <!-- TECH STACK SECTION — Animated glowing technology cards         -->
 <!-- ═══════════════════════════════════════════════════════════════ -->
 
-```aura width=860 height=300
+```aura width=860 height=380
 <div style={{
   width: '100%', height: '100%', background: '#071c1b',
   display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center',
@@ -166,7 +166,7 @@
     #tsp15 { animation: ts-pulse 3s ease-in-out infinite 0.4s; }
   `}</style>
 
-  <svg width="860" height="300" style={{ position: 'absolute', top: 0, left: 0, filter: 'hue-rotate(75deg) saturate(1.18) brightness(1.08)' }}>
+  <svg width="860" height="380" style={{ position: 'absolute', top: 0, left: 0, filter: 'hue-rotate(75deg) saturate(1.18) brightness(1.08)' }}>
     <defs>
       <radialGradient id="tsg1" cx="50%" cy="50%" r="50%">
         <stop offset="0%" stopColor="rgba(139,92,246,0.35)" />
@@ -181,9 +181,9 @@
         <stop offset="100%" stopColor="rgba(51,102,255,0)" />
       </radialGradient>
     </defs>
-    <ellipse id="tso1" cx="150" cy="220" rx="200" ry="160" fill="url(#tsg1)" />
-    <ellipse id="tso2" cx="700" cy="50"  rx="180" ry="140" fill="url(#tsg2)" />
-    <ellipse id="tso3" cx="430" cy="240" rx="160" ry="120" fill="url(#tsg3)" />
+    <ellipse id="tso1" cx="150" cy="300" rx="200" ry="190" fill="url(#tsg1)" />
+    <ellipse id="tso2" cx="700" cy="70"  rx="180" ry="160" fill="url(#tsg2)" />
+    <ellipse id="tso3" cx="430" cy="320" rx="160" ry="140" fill="url(#tsg3)" />
   </svg>
 
   <span style={{
@@ -194,20 +194,29 @@
   <div style={{ display: 'flex', flexWrap: 'wrap', gap: 12, justifyContent: 'center', zIndex: 10, maxWidth: 760, padding: '0 20px' }}>
     {[
       { name: 'Python', color: '55,118,171' },
+      { name: 'JavaScript', color: '247,223,30' },
+      { name: 'TypeScript', color: '0,122,204' },
+      { name: 'Java', color: '230,81,0' },
       { name: 'SQL', color: '0,150,136' },
-      { name: 'Power BI', color: '242,200,0' },
-      { name: 'Advanced Excel', color: '33,115,70' },
-      { name: 'Pandas', color: '21,50,102' },
-      { name: 'NumPy', color: '79,134,198' },
-      { name: 'Scikit-learn', color: '245,140,45' },
+      { name: 'PHP', color: '119,123,180' },
+      { name: 'C / C++', color: '74,144,226' },
+      { name: 'Linux', color: '245,200,66' },
+      { name: 'Networking', color: '98,230,181' },
+      { name: 'HPC & Parallel', color: '255,184,107' },
+      { name: 'React', color: '97,218,251' },
+      { name: 'Tailwind CSS', color: '56,189,248' },
+      { name: 'Node.js', color: '104,159,56' },
+      { name: 'Express.js', color: '180,190,180' },
+      { name: 'REST APIs', color: '255,127,80' },
       { name: 'PostgreSQL', color: '51,103,145' },
       { name: 'MySQL', color: '0,117,143' },
-      { name: 'React', color: '97,218,251' },
-      { name: 'Node.js', color: '104,159,56' },
-      { name: 'TypeScript', color: '0,122,204' },
-      { name: 'Git', color: '240,80,50' },
-      { name: 'Linux', color: '245,200,66' },
       { name: 'Gemini API', color: '66,133,244' },
+      { name: 'GPT-4', color: '116,192,160' },
+      { name: 'Scikit-learn', color: '245,140,45' },
+      { name: 'Pandas / NumPy', color: '79,134,198' },
+      { name: 'Power BI', color: '242,200,0' },
+      { name: 'Matplotlib', color: '115,85,124' },
+      { name: 'Git', color: '240,80,50' },
     ].map(function(tech, i) {
       return (
         <div key={i} id={'tsp' + (i + 1)} style={{
@@ -236,7 +245,7 @@
 <!-- ABOUT ME SECTION — Terminal-style glassmorphism panel          -->
 <!-- ═══════════════════════════════════════════════════════════════ -->
 
-```aura width=860 height=240
+```aura width=860 height=280
 <div style={{
   width: '100%', height: '100%', background: '#071c1b',
   display: 'flex', fontFamily: 'Inter, sans-serif',
@@ -255,7 +264,7 @@
     #abline { animation: ab-line-glow 4s ease-in-out infinite; }
   `}</style>
 
-  <svg width="860" height="240" style={{ position: 'absolute', top: 0, left: 0, filter: 'hue-rotate(75deg) saturate(1.18) brightness(1.08)' }}>
+  <svg width="860" height="280" style={{ position: 'absolute', top: 0, left: 0, filter: 'hue-rotate(75deg) saturate(1.18) brightness(1.08)' }}>
     <defs>
       <radialGradient id="abg1" cx="50%" cy="50%" r="50%">
         <stop offset="0%" stopColor="rgba(0,229,255,0.35)" />
@@ -266,9 +275,9 @@
         <stop offset="100%" stopColor="rgba(139,92,246,0)" />
       </radialGradient>
     </defs>
-    <ellipse id="abo1" cx="80"  cy="200" rx="200" ry="150" fill="url(#abg1)" />
-    <ellipse id="abo2" cx="780" cy="60"  rx="180" ry="140" fill="url(#abg2)" />
-    <line id="abline" x1="44" y1="70" x2="44" y2="200" stroke="rgba(0,229,255,0.25)" strokeWidth="1" />
+    <ellipse id="abo1" cx="80"  cy="230" rx="200" ry="170" fill="url(#abg1)" />
+    <ellipse id="abo2" cx="780" cy="70"  rx="180" ry="150" fill="url(#abg2)" />
+    <line id="abline" x1="44" y1="70" x2="44" y2="235" stroke="rgba(0,229,255,0.25)" strokeWidth="1" />
   </svg>
 
   <div style={{
@@ -281,19 +290,19 @@
     }}>about</span>
 
     <span style={{ fontSize: 22, fontWeight: 700, color: '#ffffff', lineHeight: 1.3 }}>
-      Turning raw data into business insights with analytics, BI, and applied AI/ML
+      AI & Data Science engineer building production-grade analytics and AI-integrated products
     </span>
 
     <span style={{
       fontSize: 14, color: 'rgba(255,255,255,0.50)', lineHeight: 1.7,
       maxWidth: 680
     }}>
-      AI & ML Engineer / Data Scientist focused on SQL, Power BI, Advanced Excel, Python, and exploratory data analysis. I build business and operational analytics solutions from raw transactional data, create interactive dashboards, and work on applied AI/ML projects across agriculture and healthcare. Currently completing C-DAC's HPC ACC programme with work-based learning.
+      Final-year B.E. Artificial Intelligence & Data Science graduate with 2 peer-reviewed publications and hands-on experience in SQL, Python, Pandas, NumPy, Scikit-learn, and exploratory data analysis. I am proficient in Python, JavaScript, TypeScript, React, Node.js, PostgreSQL, and AI/ML integrations including Gemini API and GPT-4. I have built 5 live platforms serving 300+ users and am developing Linux, networking, cloud, and HPC depth through C-DAC's work-based programme.
     </span>
 
     <div style={{ display: 'flex', alignItems: 'center', marginTop: 8 }}>
       <span style={{ fontSize: 13, color: 'rgba(0,229,255,0.45)', fontFamily: 'monospace' }}>
-        {'>'} enterprise UI · observability · AI integrations · distributed systems
+        {'>'} full-stack engineering · business intelligence · applied AI/ML · HPC
       </span>
       <span id="abcur" style={{ fontSize: 13, color: 'rgba(0,229,255,0.6)', fontFamily: 'monospace', marginLeft: 1 }}>_</span>
     </div>
