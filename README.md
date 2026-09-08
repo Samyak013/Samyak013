@@ -23,39 +23,6 @@
   <img src="./.github/assets/readme-aura-component-4-798b6ec4.svg" alt="Currently exploring" />
 </p>
 
-## Work Experience
-
-### C-DAC Mumbai (Juhu) - HPC ACC Course with Work-Based Learning
-**Jul 2026 - Present**
-
-- Enrolled in C-DAC's HPC Advanced Computing Career programme across Linux & Operating Systems, Computer Networks & Interconnects, Python & C++ Programming, and C & Data Structures.
-- Building applied knowledge of HPC architecture, parallel programming, cloud deployment, statistical data handling, ML, Deep Learning, and OpenVINO.
-- Completing a work-based learning component with a live project phase and structured aptitude and communication-skills sessions.
-
-### Pythonic Labs - Python Developer Intern
-**Mar 2025 - Apr 2025 - Remote**
-
-- Engineered 3-5 Python and Tkinter GUI applications, reducing manual data-entry effort by **40%** through automation and modular architecture.
-- Cleaned and analyzed operational datasets with Pandas and built **5 interactive Matplotlib dashboards** by integrating **4 REST APIs**, cutting reporting turnaround by **60%**.
-
-## Education
-
-**B.E. Artificial Intelligence & Data Science**<br>
-University of Mumbai, Kharghar<br>
-**Nov 2022 - May 2026 | Aggregate CGPA: 7.75 / 10**
-
-## Achievements & Publications
-
-- **Lead Organizer - HackUp 2026 (Hack The Core):** spearheaded Navi Mumbai's largest student hackathon with 200+ participants, multiple tracks, judges, and mentors.
-- **Runner-Up - Innovathon 2025, Data Science Track:** led the team through problem scoping, task delegation, and the final pitch.
-- **First Author - ICATM 2024:** agricultural EDA research based on TechFarm Nexus.
-- **Co-Author - PaperNova International Journal:** AI in Healthcare.
-- **Aavishkar Semi-Finalist x2.**
-
-## Certifications
-
-Python Full Stack + DSA · Cursa AI Masterclass (ML & Deep Learning) · Neo4j Certified Professional · Certified Ethical Hacker (CEH) + PRO
-
 ## Connect
 
 <p align="center">
