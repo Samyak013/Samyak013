@@ -1,11 +1,6 @@
 name: Generate README
 
 on:
-  push:
-    branches: [main]
-    paths: ['readme.source.md']
-  schedule:
-    - cron: '0 6 * * *'
   workflow_dispatch:
 
 permissions:
