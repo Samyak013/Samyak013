@@ -6,7 +6,7 @@
 
 ```aura width=860 height=320
 <div style={{
-  width: '100%', height: '100%', background: '#06060a',
+  width: '100%', height: '100%', background: '#081614',
   display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center',
   fontFamily: 'Inter, sans-serif', position: 'relative', overflow: 'hidden',
   borderRadius: 20, border: '1px solid rgba(0,229,255,0.08)'
@@ -37,7 +37,7 @@
     #hcur { animation: hero-cursor 1.1s step-end infinite; }
   `}</style>
 
-  <svg width="860" height="320" style={{ position: 'absolute', top: 0, left: 0 }}>
+  <svg width="860" height="320" style={{ position: 'absolute', top: 0, left: 0, filter: 'hue-rotate(75deg) saturate(0.85)' }}>
     <defs>
       <radialGradient id="hg1" cx="50%" cy="50%" r="50%">
         <stop offset="0%" stopColor="rgba(0,229,255,0.50)" />
@@ -136,7 +136,7 @@
 
 ```aura width=860 height=300
 <div style={{
-  width: '100%', height: '100%', background: '#06060a',
+  width: '100%', height: '100%', background: '#081614',
   display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center',
   fontFamily: 'Inter, sans-serif', position: 'relative', overflow: 'hidden',
   borderRadius: 20, border: '1px solid rgba(139,92,246,0.08)'
@@ -166,7 +166,7 @@
     #tsp15 { animation: ts-pulse 3s ease-in-out infinite 0.4s; }
   `}</style>
 
-  <svg width="860" height="300" style={{ position: 'absolute', top: 0, left: 0 }}>
+  <svg width="860" height="300" style={{ position: 'absolute', top: 0, left: 0, filter: 'hue-rotate(75deg) saturate(0.85)' }}>
     <defs>
       <radialGradient id="tsg1" cx="50%" cy="50%" r="50%">
         <stop offset="0%" stopColor="rgba(139,92,246,0.35)" />
@@ -238,7 +238,7 @@
 
 ```aura width=860 height=240
 <div style={{
-  width: '100%', height: '100%', background: '#06060a',
+  width: '100%', height: '100%', background: '#081614',
   display: 'flex', fontFamily: 'Inter, sans-serif',
   position: 'relative', overflow: 'hidden',
   borderRadius: 20, border: '1px solid rgba(51,102,255,0.08)'
@@ -255,7 +255,7 @@
     #abline { animation: ab-line-glow 4s ease-in-out infinite; }
   `}</style>
 
-  <svg width="860" height="240" style={{ position: 'absolute', top: 0, left: 0 }}>
+  <svg width="860" height="240" style={{ position: 'absolute', top: 0, left: 0, filter: 'hue-rotate(75deg) saturate(0.85)' }}>
     <defs>
       <radialGradient id="abg1" cx="50%" cy="50%" r="50%">
         <stop offset="0%" stopColor="rgba(0,229,255,0.35)" />
@@ -307,7 +307,7 @@
 
 ```aura width=860 height=490
 <div style={{
-  width: '100%', height: '100%', background: '#06060a',
+  width: '100%', height: '100%', background: '#081614',
   display: 'flex', flexDirection: 'column', alignItems: 'center',
   fontFamily: 'Inter, sans-serif', position: 'relative', overflow: 'hidden',
   borderRadius: 20, border: '1px solid rgba(0,229,255,0.06)', padding: '28px 0'
@@ -328,7 +328,7 @@
     #pjs5 { animation: pj-status 2s ease-in-out infinite 1.6s; }
   `}</style>
 
-  <svg width="860" height="490" style={{ position: 'absolute', top: 0, left: 0 }}>
+  <svg width="860" height="490" style={{ position: 'absolute', top: 0, left: 0, filter: 'hue-rotate(75deg) saturate(0.85)' }}>
     <defs>
       <radialGradient id="pjg1" cx="50%" cy="50%" r="50%">
         <stop offset="0%" stopColor="rgba(0,229,255,0.20)" />
@@ -429,14 +429,8 @@
 
 <p align="center">
 
-![](https://github-readme-stats.vercel.app/api?username=Samyak013&show_icons=true&theme=transparent&hide_border=true&title_color=00e5ff&text_color=8b9dc3&icon_color=8b5cf6&bg_color=00000000&ring_color=00e5ff)
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=Samyak013&layout=compact&theme=transparent&hide_border=true&title_color=00e5ff&text_color=8b9dc3&bg_color=00000000)
-
-</p>
-
-<p align="center">
-
-![](https://github-readme-streak-stats.herokuapp.com/?user=Samyak013&theme=transparent&hide_border=true&ring=00e5ff&fire=8b5cf6&currStreakLabel=00e5ff&sideLabels=8b9dc3&currStreakNum=ffffff&sideNums=ffffff&dates=555555&stroke=1a1a2e)
+![](https://github-readme-stats.vercel.app/api?username=Samyak013&show_icons=true&theme=transparent&hide_border=true&title_color=62e6b5&text_color=b7c9c2&icon_color=ffb86b&bg_color=00000000)
+![](https://github-readme-stats.vercel.app/api/top-langs/?username=Samyak013&layout=compact&theme=transparent&hide_border=true&title_color=62e6b5&text_color=b7c9c2&bg_color=00000000)
 
 </p>
 
@@ -446,7 +440,7 @@
 
 ```aura width=860 height=220
 <div style={{
-  width: '100%', height: '100%', background: '#06060a',
+  width: '100%', height: '100%', background: '#081614',
   display: 'flex', fontFamily: 'Inter, sans-serif',
   position: 'relative', overflow: 'hidden',
   borderRadius: 20, border: '1px solid rgba(139,92,246,0.08)'
@@ -466,7 +460,7 @@
     #cfd6 { animation: cf-dot 2.5s ease-in-out infinite 2.0s; }
   `}</style>
 
-  <svg width="860" height="220" style={{ position: 'absolute', top: 0, left: 0 }}>
+  <svg width="860" height="220" style={{ position: 'absolute', top: 0, left: 0, filter: 'hue-rotate(75deg) saturate(0.85)' }}>
     <defs>
       <radialGradient id="cfg1" cx="50%" cy="50%" r="50%">
         <stop offset="0%" stopColor="rgba(139,92,246,0.30)" />
@@ -647,7 +641,7 @@ University of Mumbai, Kharghar · **7.75 / 10 CGPA**<br>
 
 ```aura width=860 height=80
 <div style={{
-  width: '100%', height: '100%', background: '#06060a',
+  width: '100%', height: '100%', background: '#081614',
   display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center',
   fontFamily: 'Inter, sans-serif', position: 'relative', overflow: 'hidden',
   borderRadius: 16, border: '1px solid rgba(0,229,255,0.05)'
@@ -664,7 +658,7 @@ University of Mumbai, Kharghar · **7.75 / 10 CGPA**<br>
     #ftorb1 { animation: ft-orb 8s ease-in-out infinite; }
   `}</style>
 
-  <svg width="860" height="80" style={{ position: 'absolute', top: 0, left: 0 }}>
+  <svg width="860" height="80" style={{ position: 'absolute', top: 0, left: 0, filter: 'hue-rotate(75deg) saturate(0.85)' }}>
     <defs>
       <linearGradient id="fsg" x1="0" y1="0" x2="0" y2="1">
         <stop offset="0%" stopColor="rgba(0,229,255,0)" />
