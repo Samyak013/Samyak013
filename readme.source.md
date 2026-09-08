@@ -6,7 +6,7 @@
 
 ```aura width=860 height=320
 <div style={{
-  width: '100%', height: '100%', background: '#081614',
+  width: '100%', height: '100%', background: '#071c1b',
   display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center',
   fontFamily: 'Inter, sans-serif', position: 'relative', overflow: 'hidden',
   borderRadius: 20, border: '1px solid rgba(0,229,255,0.08)'
@@ -37,7 +37,7 @@
     #hcur { animation: hero-cursor 1.1s step-end infinite; }
   `}</style>
 
-  <svg width="860" height="320" style={{ position: 'absolute', top: 0, left: 0, filter: 'hue-rotate(75deg) saturate(0.85)' }}>
+  <svg width="860" height="320" style={{ position: 'absolute', top: 0, left: 0, filter: 'hue-rotate(75deg) saturate(1.18) brightness(1.08)' }}>
     <defs>
       <radialGradient id="hg1" cx="50%" cy="50%" r="50%">
         <stop offset="0%" stopColor="rgba(0,229,255,0.50)" />
@@ -136,7 +136,7 @@
 
 ```aura width=860 height=300
 <div style={{
-  width: '100%', height: '100%', background: '#081614',
+  width: '100%', height: '100%', background: '#071c1b',
   display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center',
   fontFamily: 'Inter, sans-serif', position: 'relative', overflow: 'hidden',
   borderRadius: 20, border: '1px solid rgba(139,92,246,0.08)'
@@ -166,7 +166,7 @@
     #tsp15 { animation: ts-pulse 3s ease-in-out infinite 0.4s; }
   `}</style>
 
-  <svg width="860" height="300" style={{ position: 'absolute', top: 0, left: 0, filter: 'hue-rotate(75deg) saturate(0.85)' }}>
+  <svg width="860" height="300" style={{ position: 'absolute', top: 0, left: 0, filter: 'hue-rotate(75deg) saturate(1.18) brightness(1.08)' }}>
     <defs>
       <radialGradient id="tsg1" cx="50%" cy="50%" r="50%">
         <stop offset="0%" stopColor="rgba(139,92,246,0.35)" />
@@ -238,7 +238,7 @@
 
 ```aura width=860 height=240
 <div style={{
-  width: '100%', height: '100%', background: '#081614',
+  width: '100%', height: '100%', background: '#071c1b',
   display: 'flex', fontFamily: 'Inter, sans-serif',
   position: 'relative', overflow: 'hidden',
   borderRadius: 20, border: '1px solid rgba(51,102,255,0.08)'
@@ -255,7 +255,7 @@
     #abline { animation: ab-line-glow 4s ease-in-out infinite; }
   `}</style>
 
-  <svg width="860" height="240" style={{ position: 'absolute', top: 0, left: 0, filter: 'hue-rotate(75deg) saturate(0.85)' }}>
+  <svg width="860" height="240" style={{ position: 'absolute', top: 0, left: 0, filter: 'hue-rotate(75deg) saturate(1.18) brightness(1.08)' }}>
     <defs>
       <radialGradient id="abg1" cx="50%" cy="50%" r="50%">
         <stop offset="0%" stopColor="rgba(0,229,255,0.35)" />
@@ -307,7 +307,7 @@
 
 ```aura width=860 height=490
 <div style={{
-  width: '100%', height: '100%', background: '#081614',
+  width: '100%', height: '100%', background: '#071c1b',
   display: 'flex', flexDirection: 'column', alignItems: 'center',
   fontFamily: 'Inter, sans-serif', position: 'relative', overflow: 'hidden',
   borderRadius: 20, border: '1px solid rgba(0,229,255,0.06)', padding: '28px 0'
@@ -328,7 +328,7 @@
     #pjs5 { animation: pj-status 2s ease-in-out infinite 1.6s; }
   `}</style>
 
-  <svg width="860" height="490" style={{ position: 'absolute', top: 0, left: 0, filter: 'hue-rotate(75deg) saturate(0.85)' }}>
+  <svg width="860" height="490" style={{ position: 'absolute', top: 0, left: 0, filter: 'hue-rotate(75deg) saturate(1.18) brightness(1.08)' }}>
     <defs>
       <radialGradient id="pjg1" cx="50%" cy="50%" r="50%">
         <stop offset="0%" stopColor="rgba(0,229,255,0.20)" />
@@ -440,7 +440,7 @@
 
 ```aura width=860 height=220
 <div style={{
-  width: '100%', height: '100%', background: '#081614',
+  width: '100%', height: '100%', background: '#071c1b',
   display: 'flex', fontFamily: 'Inter, sans-serif',
   position: 'relative', overflow: 'hidden',
   borderRadius: 20, border: '1px solid rgba(139,92,246,0.08)'
@@ -460,7 +460,7 @@
     #cfd6 { animation: cf-dot 2.5s ease-in-out infinite 2.0s; }
   `}</style>
 
-  <svg width="860" height="220" style={{ position: 'absolute', top: 0, left: 0, filter: 'hue-rotate(75deg) saturate(0.85)' }}>
+  <svg width="860" height="220" style={{ position: 'absolute', top: 0, left: 0, filter: 'hue-rotate(75deg) saturate(1.18) brightness(1.08)' }}>
     <defs>
       <radialGradient id="cfg1" cx="50%" cy="50%" r="50%">
         <stop offset="0%" stopColor="rgba(139,92,246,0.30)" />
@@ -517,39 +517,81 @@
 </div>
 ```
 
-## Experience, Education & Achievements
+<!-- ═══════════════════════════════════════════════════════════════ -->
+<!-- CAREER SIGNAL — Experience, education, achievements, and proof -->
+<!-- ═══════════════════════════════════════════════════════════════ -->
 
-**C-DAC Mumbai (Juhu) — HPC ACC Course with Work-Based Learning**<br>
-*Jul 2026 – Present*
+```aura width=860 height=560
+<div style={{
+  width: '100%', height: '100%', background: '#071c1b',
+  display: 'flex', flexDirection: 'column', fontFamily: 'Inter, sans-serif',
+  position: 'relative', overflow: 'hidden', borderRadius: 20,
+  border: '1px solid rgba(98,230,181,0.18)', padding: '28px 0'
+}}>
 
-- Advanced Computing Career programme with Linux & Operating Systems, Computer Networks & Interconnects, Python & C++ Programming, and C & Data Structures.
-- Building applied knowledge of Python-based statistical data handling and analysis.
-- Completing a work-based learning component with a live project phase plus aptitude and communication-skills sessions.
+  <style>{`
+    @keyframes cs-pulse { 0%, 100% { opacity: 0.45; } 50% { opacity: 1; } }
+    @keyframes cs-drift { 0%, 100% { transform: translate(0,0); opacity: 0.28; } 50% { transform: translate(30px,-20px); opacity: 0.55; } }
+    #csp1 { animation: cs-pulse 2.8s ease-in-out infinite; }
+    #csp2 { animation: cs-pulse 2.8s ease-in-out infinite 0.6s; }
+    #csp3 { animation: cs-pulse 2.8s ease-in-out infinite 1.2s; }
+    #csp4 { animation: cs-pulse 2.8s ease-in-out infinite 1.8s; }
+    #csg1 { animation: cs-drift 12s ease-in-out infinite; }
+    #csg2 { animation: cs-drift 15s ease-in-out infinite 1s; }
+  `}</style>
 
-**Pythonic Labs — Python Developer Intern**<br>
-*Mar 2025 – Apr 2025 · Remote*
+  <svg width="860" height="560" style={{ position: 'absolute', top: 0, left: 0, filter: 'saturate(1.2) brightness(1.08)' }}>
+    <defs>
+      <radialGradient id="csgg1" cx="50%" cy="50%" r="50%">
+        <stop offset="0%" stopColor="rgba(98,230,181,0.28)" />
+        <stop offset="100%" stopColor="rgba(98,230,181,0)" />
+      </radialGradient>
+      <radialGradient id="csgg2" cx="50%" cy="50%" r="50%">
+        <stop offset="0%" stopColor="rgba(255,184,107,0.26)" />
+        <stop offset="100%" stopColor="rgba(255,184,107,0)" />
+      </radialGradient>
+    </defs>
+    <ellipse id="csg1" cx="80" cy="500" rx="250" ry="190" fill="url(#csgg1)" />
+    <ellipse id="csg2" cx="800" cy="80" rx="220" ry="170" fill="url(#csgg2)" />
+  </svg>
 
-- Built 3–5 Python/Tkinter GUI desktop applications, reducing manual data-entry effort by **40%** through automation and modular architecture.
-- Cleaned and analyzed operational datasets with Pandas, tracked KPIs, and built **5 interactive dashboards** integrating **4 third-party REST APIs**, cutting reporting turnaround by **60%**.
+  <div style={{ position: 'relative', zIndex: 10, padding: '0 34px', display: 'flex', flexDirection: 'column', gap: 12 }}>
+    <span style={{ fontSize: 11, letterSpacing: 5, textTransform: 'uppercase', color: 'rgba(98,230,181,0.85)', fontWeight: 600 }}>career signal</span>
+    <span style={{ fontSize: 22, fontWeight: 750, color: '#ffffff', letterSpacing: 0.2 }}>Experience, education & proof of work</span>
+    <span style={{ fontSize: 12, color: 'rgba(220,240,234,0.62)', lineHeight: 1.5 }}>A practical track record across business analytics, Python automation, AI/ML, and high-performance computing.</span>
+  </div>
 
-**B.E. Artificial Intelligence & Data Science**<br>
-University of Mumbai, Kharghar · **7.75 / 10 CGPA**<br>
-*Nov 2022 – May 2026*
+  <div style={{ position: 'relative', zIndex: 10, display: 'flex', flexDirection: 'column', gap: 9, padding: '16px 34px 0' }}>
+    {[
+      { title: 'C-DAC Mumbai (Juhu)', role: 'HPC ACC Course with Work-Based Learning', meta: 'Jul 2026 – Present', detail: 'Linux & OS · Networks & Interconnects · Python & C++ · C & Data Structures', color: '98,230,181', id: 'csp1' },
+      { title: 'Pythonic Labs', role: 'Python Developer Intern', meta: 'Mar 2025 – Apr 2025 · Remote', detail: '3–5 GUI applications · 5 dashboards · 4 REST APIs · 40% less data entry · 60% faster reporting', color: '255,184,107', id: 'csp2' },
+      { title: 'University of Mumbai', role: 'B.E. Artificial Intelligence & Data Science', meta: 'Nov 2022 – May 2026 · 7.75 / 10 CGPA', detail: 'Applied analytics, data science, AI/ML, and research-led problem solving', color: '78,168,222', id: 'csp3' }
+    ].map(function(item, i) {
+      return (
+        <div key={i} style={{ display: 'flex', alignItems: 'center', gap: 14, padding: '12px 16px', background: 'rgba(255,255,255,0.045)', border: '1px solid rgba(' + item.color + ',0.24)', borderRadius: 12 }}>
+          <div id={item.id} style={{ width: 8, height: 8, borderRadius: 4, flexShrink: 0, background: 'rgba(' + item.color + ',0.95)', boxShadow: '0 0 12px rgba(' + item.color + ',0.7)' }} />
+          <div style={{ display: 'flex', flexDirection: 'column', gap: 3, flex: 1 }}>
+            <span style={{ fontSize: 13, fontWeight: 700, color: '#ffffff' }}>{item.title} <span style={{ color: 'rgba(220,240,234,0.62)', fontWeight: 500 }}>· {item.role}</span></span>
+            <span style={{ fontSize: 10, color: 'rgba(' + item.color + ',0.9)', fontFamily: 'monospace' }}>{item.meta}</span>
+            <span style={{ fontSize: 10, color: 'rgba(220,240,234,0.58)', lineHeight: 1.35 }}>{item.detail}</span>
+          </div>
+        </div>
+      );
+    })}
+  </div>
 
-### Achievements & Publications
-
-- **Lead Organizer — HackUp 2026 (Hack The Core):** led Navi Mumbai's student hackathon with 200+ participants, multiple tracks, judges, and mentors.
-- **Runner-Up — Innovathon 2025, Data Science Track:** led the team through problem scoping, task delegation, and final pitch.
-- **First Author — ICATM 2024:** research based on TechFarm Nexus agricultural EDA.
-- **Co-Author — PaperNova Journal:** AI in Healthcare.
-- **Aavishkar Semi-Finalist ×2.**
-
-### Certifications
-
-- Python Full Stack + DSA
-- Cursa AI Masterclass — ML & Deep Learning
-- Neo4j Certified Professional
-- Certified Ethical Hacker (CEH) + PRO
+  <div style={{ position: 'relative', zIndex: 10, display: 'flex', gap: 10, padding: '14px 34px 0' }}>
+    <div style={{ flex: 1, padding: '12px 14px', background: 'rgba(98,230,181,0.07)', border: '1px solid rgba(98,230,181,0.2)', borderRadius: 12 }}>
+      <span style={{ display: 'block', fontSize: 10, letterSpacing: 2, textTransform: 'uppercase', color: 'rgba(98,230,181,0.85)', marginBottom: 7 }}>achievements</span>
+      <span style={{ fontSize: 10, color: 'rgba(255,255,255,0.68)', lineHeight: 1.45 }}>HackUp 2026 lead organizer · Innovathon 2025 runner-up · ICATM 2024 first author · PaperNova co-author · Aavishkar semi-finalist ×2</span>
+    </div>
+    <div style={{ flex: 1, padding: '12px 14px', background: 'rgba(255,184,107,0.07)', border: '1px solid rgba(255,184,107,0.2)', borderRadius: 12 }}>
+      <span style={{ display: 'block', fontSize: 10, letterSpacing: 2, textTransform: 'uppercase', color: 'rgba(255,184,107,0.9)', marginBottom: 7 }}>certifications</span>
+      <span style={{ fontSize: 10, color: 'rgba(255,255,255,0.68)', lineHeight: 1.45 }}>Python Full Stack + DSA · Cursa AI Masterclass · Neo4j Certified Professional · CEH + PRO</span>
+    </div>
+  </div>
+</div>
+```
 
 <!-- ═══════════════════════════════════════════════════════════════ -->
 <!-- SOCIAL LINKS — Custom SocialMediaButton components             -->
@@ -641,7 +683,7 @@ University of Mumbai, Kharghar · **7.75 / 10 CGPA**<br>
 
 ```aura width=860 height=80
 <div style={{
-  width: '100%', height: '100%', background: '#081614',
+  width: '100%', height: '100%', background: '#071c1b',
   display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center',
   fontFamily: 'Inter, sans-serif', position: 'relative', overflow: 'hidden',
   borderRadius: 16, border: '1px solid rgba(0,229,255,0.05)'
@@ -658,7 +700,7 @@ University of Mumbai, Kharghar · **7.75 / 10 CGPA**<br>
     #ftorb1 { animation: ft-orb 8s ease-in-out infinite; }
   `}</style>
 
-  <svg width="860" height="80" style={{ position: 'absolute', top: 0, left: 0, filter: 'hue-rotate(75deg) saturate(0.85)' }}>
+  <svg width="860" height="80" style={{ position: 'absolute', top: 0, left: 0, filter: 'hue-rotate(75deg) saturate(1.18) brightness(1.08)' }}>
     <defs>
       <linearGradient id="fsg" x1="0" y1="0" x2="0" y2="1">
         <stop offset="0%" stopColor="rgba(0,229,255,0)" />
