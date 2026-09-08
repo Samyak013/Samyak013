@@ -15,11 +15,6 @@
 </p>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Samyak013&show_icons=true&theme=transparent&hide_border=true&title_color=62e6b5&text_color=b7c9c2&icon_color=ffb86b&bg_color=00000000" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Samyak013&layout=compact&theme=transparent&hide_border=true&title_color=62e6b5&text_color=b7c9c2&bg_color=00000000" />
-</p>
-
-<p align="center">
   <img src="./.github/assets/readme-aura-component-4-798b6ec4.svg" alt="Currently exploring" />
 </p>
 

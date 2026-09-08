@@ -435,17 +435,6 @@
 ```
 
 <!-- ═══════════════════════════════════════════════════════════════ -->
-<!-- GITHUB STATS — Cohesive themed statistics                      -->
-<!-- ═══════════════════════════════════════════════════════════════ -->
-
-<p align="center">
-
-![](https://github-readme-stats.vercel.app/api?username=Samyak013&show_icons=true&theme=transparent&hide_border=true&title_color=62e6b5&text_color=b7c9c2&icon_color=ffb86b&bg_color=00000000)
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=Samyak013&layout=compact&theme=transparent&hide_border=true&title_color=62e6b5&text_color=b7c9c2&bg_color=00000000)
-
-</p>
-
-<!-- ═══════════════════════════════════════════════════════════════ -->
 <!-- CURRENT FOCUS — What I'm building and exploring                -->
 <!-- ═══════════════════════════════════════════════════════════════ -->
 
