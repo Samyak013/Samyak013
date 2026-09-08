@@ -297,7 +297,9 @@
       fontSize: 14, color: 'rgba(255,255,255,0.50)', lineHeight: 1.7,
       maxWidth: 680
     }}>
-      Final-year B.E. Artificial Intelligence & Data Science graduate with 2 peer-reviewed publications and hands-on experience in SQL, Python, Pandas, NumPy, Scikit-learn, and exploratory data analysis. I am proficient in Python, JavaScript, TypeScript, React, Node.js, PostgreSQL, and AI/ML integrations including Gemini API and GPT-4. I have built 5 live platforms serving 300+ users and am developing Linux, networking, cloud, and HPC depth through C-DAC's work-based programme.
+      Final-year B.E. Artificial Intelligence & Data Science graduate with 2 peer-reviewed publications and hands-on experience in SQL, Python, Pandas, NumPy, Scikit-learn, and exploratory data analysis. Proficient in Python, JavaScript, TypeScript, React, Node.js, PostgreSQL, and AI/ML integration with Gemini API and GPT-4.
+
+      Built 5 live platforms serving 300+ users, with practical exposure to Linux, networking, cloud deployment, and HPC through C-DAC's Advanced Computing Career programme. Seeking Full-Stack, AI Engineering, and Data Analytics roles.
     </span>
 
     <div style={{ display: 'flex', alignItems: 'center', marginTop: 8 }}>
